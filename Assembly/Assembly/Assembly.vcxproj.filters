@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{8c49e9ea-f6bf-459b-a2ba-03583c5e498c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembly\MatLib">
+      <UniqueIdentifier>{8d8558e7-2759-437c-89d9-381dc9569e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembly\Wiki">
+      <UniqueIdentifier>{26ce7855-23b0-4485-a9b1-bf028c9a61ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ASM_ZeroArray.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="MatLib.asm">
+      <Filter>Assembly\MatLib</Filter>
+    </MASM>
+    <MASM Include="ASM_Pointers.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASMTestFunction.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_DataSegment.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_Divide_Muitiply_INT.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_JumpEx.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_JumpsTestFunc.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_PassingParameters.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_Rotate_Instructions.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASM_Shift_Instructions.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+    <MASM Include="ASMFunction.asm">
+      <Filter>Assembly\Wiki</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZeroArray.h">
+      <Filter>Assembly\Wiki</Filter>
+    </ClInclude>
+    <ClInclude Include="MatLib.h">
+      <Filter>Assembly\MatLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
