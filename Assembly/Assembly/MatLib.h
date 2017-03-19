@@ -9,5 +9,9 @@
 /* DIV c = a / b */		extern "C" int divide(int a, int b);
 /* REM c = a % b */		extern "C" int rem(int a, int b);
 
+/* CLEAN_BUFFER */		extern "C" void clean_buffer(void* buffer, unsigned int size);
+/* PRIORIZE*/			extern "C" void priorize(int* buffer, unsigned int elements, unsigned int elements_size);
+/* INV_PRIORIZE*/		extern "C" void inv_priorize(void* buffer, unsigned int size);
+
 //extern "C" bool clean_buffer(void* buffer, unsigned int size)
 #endif // _MAT_LIB_
